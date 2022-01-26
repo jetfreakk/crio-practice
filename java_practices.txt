@@ -1,0 +1,60 @@
+JAVA SCANNER CLASS 
+
+Part of java.util.package
+Used to receive  user input and parse them into primitie data types
+Various constructors
+1) InputStream - Passing System.in
+2) File or Path - File data
+3) String - String source
+Second argument - Specify character set (Optional)
+Scanner Class (Important Methods)
+useDelimiter(String pattern) - default dilimiter is whitespace
+hasNext() - return true if there is another token in the input
+next() - returns next token
+close() - To close the Scanner
+
+Initialize Constructor
+
+Using constuctor 
+Wait for input token using hasNext() method
+next()
+
+Scanner sc = new Scanner(System.in)
+SOP("Enter")
+String name = sc.next();
+SOP(name);
+sc.close();
+
+FULL NAME WON'T PROCESS
+RESOLUTION :-
+sc.useDelimiter(System.getProperty("line.separator"));
+
+SCANNING A FILE 
+
+Scanner sc = new Scanner(new File("employees.csv"));
+sc.useDelimiter(System.getProperty("line.separator"));
+List<Employee> bew ArrayList<>();
+while(sc.hasNext())
+{
+    Employee emp  = parseEmployeeData.sc.next());
+    bew.add(emp);
+}
+sc.close();
+parseEmployeeData(String ans)
+{
+    Scanner sc = new Scanner(ans);
+    sc.useDelimiter(",");
+    Employee emp = new Employee();
+    emp.setID;
+    emp.setName;
+    emp.setRole
+    sc.close();
+    return emp;
+}
+
+JAVA SCANNER REGULAR EXPRESSION
+
+String data = "1bdjksk335323djhjdlj122";
+Scanner sc1 = new Scanner(data);
+sc1.useDelimiter("\\D"); NON-digit Regex delimiter
+
