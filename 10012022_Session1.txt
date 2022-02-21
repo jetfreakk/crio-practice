@@ -1,0 +1,23 @@
+Q1 Identify the DS
+
+1) Key/ValuesPair - Without Order -> Hashmap -> Constant Time Searching
+                    With Order by Keys ->
+                    Insertion Order ->
+2) Values only - Duplicates -> ArrayLists/Arrays
+                 Searching -> Hashset
+                 Order No -> LinkedHashset
+                 Order Insertion ->   Tree HashSet
+
+
+Q2 Private Constructor
+
+A singleton 
+Private constructors are used to prevent creating instances of a class when there are no instance fields or methods, 
+such as the Math class, or when a method is called to obtain an instance of a class
+
+Q3 Output
+Q4 equals() and == difference
+Q5 abstract class and interface
+Q6 abstract methods and classes
+Q7 What happens when you type in a URL in your web browser?
+Q8 Design Amazon Shopping Cart

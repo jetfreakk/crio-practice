@@ -1,0 +1,11 @@
+Linear DS
+LIFO/FILO Order
+
+Main 3 basic operations:
+PUSH - Adds item to stack, if full - overflow (O1)
+POP - Remoes item from stack, removed in recerse order of push, if empty - underflow (O1)
+PEEK - Get topmost element (O1)
+
+Implementation:
+1) ARRAY
+2) LINKED LIST

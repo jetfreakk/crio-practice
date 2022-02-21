@@ -1,0 +1,11 @@
+A way to achieve abstraction
+Define the contract for the subclass to Implementation
+public static and final (attribute)
+methods are abstract and public
+CANNOT INSTANTIATE
+100% abstraction 
+Abstract classes can have method implementations but interfaces can't
+Can extend interface 
+If a class implements interfaces, it must provde implementation for all of its method
+Unless it is an abstract class
+

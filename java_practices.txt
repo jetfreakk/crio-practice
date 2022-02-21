@@ -58,3 +58,7 @@ String data = "1bdjksk335323djhjdlj122";
 Scanner sc1 = new Scanner(data);
 sc1.useDelimiter("\\D"); NON-digit Regex delimiter
 
+
+JAVA GENERICS
+
+Added to provide compile-time checking and removing ClassCastException

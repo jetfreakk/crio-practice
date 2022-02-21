@@ -1,0 +1,3 @@
+JUnit is a regression testing framework for Java.
+Test driven development.
+Unit Testing is used to verify a small chunk of code.

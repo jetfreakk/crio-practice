@@ -1,0 +1,20 @@
+DBMS vs File System
+
+Drawbacks of File system :-
+Data redundancy
+Data inconsistency
+Data isolation
+Dependeny on application programs
+Atomicity issues (All or nothing)
+Data security
+
+Advantages of DBMS :-
+No redundant data 
+Data consistency and integrity
+Data security
+Privacy
+
+Create -> Insert
+Read -> Select
+Update -> Update
+Delete -> Delete
